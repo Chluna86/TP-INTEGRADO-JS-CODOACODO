@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 55, 63);
+    align-content: center;
+}
+
+.row {
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.col {
+    text-align: center;
+    width: 280px;
+}
+
+.caja {
+    width: 840px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagoTotal {
+    display: flex;
+    align-items: flex-end;
+    max-width: 97%;
+    padding: 7px 12px;
+    margin: 15px 0px 15px 0px;
+    background-color: rgba(64, 164, 221, 0.5);
+    border-radius: 5px;
+}
+
+.enviar{
+    color: white;
+    background-color:  rgba(139, 201, 47, 0.979);
+}
+
+#navbarNavAltMarkup {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: max-content;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(29,64,84,255);
+}
+
+.nav-link {
+    color: aliceblue;
+}
